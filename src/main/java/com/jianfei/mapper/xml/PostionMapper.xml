@@ -5,8 +5,20 @@
 		
 	</insert>
 	
-	<delete id=""></delete>
+	<delete id="delete">
+		
+	</delete>
 	
-
+	<update id="update">
+		
+	</update>
+	
+	<select id="selectById">
+		
+	</select>
+	
+	<select id="select">
+		
+	</select>
 
 </mapper>
