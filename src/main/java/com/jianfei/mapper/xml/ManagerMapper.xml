@@ -3,7 +3,7 @@
 <mapper namespace="com.jianfei.mapper.xml.ManagerMapper">
 	<insert id="insert">
 		insert into Manager(id,name,password,age,sex,salary)
-		values (id=#{id},name=#{name},password=#{password},age=#{age},sex=#{sex},salary=#{salary})
+		values (#{id},#{name},#{password},#{age},#{sex},#{salary})
 	</insert>
 	
 	<delete id="delete">

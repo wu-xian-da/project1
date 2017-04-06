@@ -3,7 +3,7 @@
 <mapper namespace="com.jianfei.mapper.xml.SalaryMapper">
 	<insert id="insert">
 		insert into salary (id,name,salary,postion)
-		values (id=#{id},name=#{name},salary=#{salary},postion=#{postion})
+		values (#{id},#{name},#{salary},#{postion})
 	</insert>
 	
 	<delete id="delete">
